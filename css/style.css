@@ -1,0 +1,227 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  background-color: #1E876A;
+  border: 0 none;
+  color: #1E876A;
+  height: 2px;
+}
+
+#page-content-wrapper {
+  padding-left: 45px;
+}
+
+.section .row {
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 17px;
+  word-spacing: 0.6em;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.well {
+  background: rgb(235, 235, 235);
+}
+
+
+/*SIDEBAR*/
+
+#sidebar-wrapper {
+  background: #1E876A;
+}
+
+.sidebar-toggle-btn {
+  z-index: 1;
+  position: fixed;
+}
+
+#menu-toggle {
+  background-color: #1E876A;
+  color: #fff;
+}
+
+
+/*PRESONAL INFO SECTION*/
+
+#ppic {
+  /*transition: all 0.5s;*/
+  border-radius: 10%;
+  width: 300px;
+}
+
+.outline {
+  border: 5px solid rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  color: #104F44;
+}
+
+h3, h4 {
+  color: #4A4A4A;
+}
+
+h3>b {
+  color: white;
+}
+
+h3.information {
+  margin-left: 10px;
+}
+
+.well {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/*PROJECTS SECTION*/
+
+.text {
+  padding: 15px;
+}
+
+.row .project {
+  padding: 20px;
+}
+
+.carousel-img {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+.nav-tabs>li>a {
+  color: #1E876A;
+}
+
+.project-pic {
+  width: 400px;
+}
+
+
+/*SOCIAL MEDIA SECTION*/
+
+.social-media {
+  float: left;
+  clear: none;
+  padding: 20px;
+  transition: all 0.15s;
+}
+
+.highlight {
+  color: #1E876A !important;
+  border-color: #1E876A;
+  box-shadow: 0 0 15px #1E876A;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-facebook-square {
+  color: #4267B2;
+}
+
+.fa-google-plus {
+  color: #DB4437;
+}
+
+.fa-github {
+  color: rgb(0, 0, 0);
+}
+
+.fa-stack-overflow {
+  color: #F48024
+}
+
+.form-group {
+  float: none;
+  clear: none;
+}
+
+
+/* carousel */
+
+.carousel-indicators .active {
+  background: #ec4700;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #ec4700;
+}
+
+.carousel-control {
+  color: #ec4700;
+  width: 5%;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+  color: #ec4700;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: #ec4700;
+}
+
+.media-object {
+  margin: auto;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .media-object {
+    margin-top: 0;
+  }
+}
+
+.carousel-controls {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  top: 0px;
+  z-index: 1;
+}
+
+.project-pic {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+
+/*FOOTER SECTION*/
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #f5f5f5;
+}
