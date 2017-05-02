@@ -11,18 +11,6 @@
     })
   }
 
-  //Setup profile pic beahviour
-  var pic = document.getElementById("ppic");
-  var picWidth = pic.getAttribute("width");
-  pic.addEventListener("mouseover", function(event) {
-    pic.src = "./files/uniandes.jpg";
-    pic.classList.add("outline");
-  });
-  pic.addEventListener("mouseleave", function(event) {
-    pic.src = "./files/profilepic.png";
-    pic.classList.remove("outline");
-  })
-
   //Setup social media buttons highlight functionality
   var buttons = document.getElementsByClassName("social-media");
   for (var i = 0; i < buttons.length; i++) {
@@ -36,6 +24,5 @@
 
   //Setup send button
   document.getElementById("send-btn").addEventListener("click", function() {
-    console.log("Algún día se enviará el correo...");
   });
 })()
