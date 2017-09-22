@@ -8,3 +8,10 @@
   .social-icons:hover {
     background: #F88150;
   }
+
+  .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
+    color: #fff;
+    background: #F88150;
+    border-color: transparent;
+  }
+  
