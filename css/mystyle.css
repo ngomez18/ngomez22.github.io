@@ -1,0 +1,10 @@
+.social-icons {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    font-size: 32px;
+  }
+
+  .social-icons:hover {
+    background: #F88150;
+  }

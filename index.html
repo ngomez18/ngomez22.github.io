@@ -1,243 +1,412 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ==============================
+    Project:        Metronic "Acecv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Metronic "Acecv" Frontend Freebie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-<head>
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 
-  <title>Nicolás Gómez</title>
-  <link rel="icon" type="image/png" href="./files/favicon.jpg">
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>        
 
-  <!-- Font Awesome icons -->
-  <script src="https://use.fontawesome.com/8886f2cbac.js"></script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
 
-  <!-- Animate CSS -->
-  <link href="css/animate.css" rel="stylesheet">
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
 
-  <!-- Custom CSS -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img" src="img/logo.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
 
-  <!-- Lato font -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
-  <!-- My own CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-  <div id="wrapper">
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="sidebar-link" href="#info">Personal information</a>
-        </li>
-        <li class="sidebar-btn">
-          <a class="sidebar-link" href="#projects">Projects</a>
-        </li>
-        <li class="sidebar-btn">
-          <a class="sidebar-link" href="#socmed">Social media</a>
-        </li>
-      </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <!-- Make sure to keep all page content within the #page-content-wrapper -->
-    <div class="sidebar-toggle-btn">
-      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="fa fa-bars"></span></a>
-    </div>
-
-    <div id="page-content-wrapper">
-      <div class=" container-fluid">
-        <div class="section row">
-
-          <div class="row">
-            <div class="col-lg-8 "><br><br><br><br>
-              <h1 id="info">Nicolás Gómez</h1><br><br>
-              <h2 class="col-lg-11">Systems and computing engineering student, currently coursing my 6th semester at Uniandes</h2>
-            </div>
-            <div class="col-lg-4 ">
-              <img class="animated fadeIn" id="ppic" src="./files/profilepic.png" alt="Beautiful profile picture">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="well col-lg-4">
-              <h3 class="information"><span class="fa fa-map-marker"></span> Bogotá, Colombia</h3>
-              <h3 class="information"><span class="fa fa-birthday-cake"></span> May 18, 1996</h3>
-              <h3 class="information"><span class="fa fa-file-text-o"></span> Check out my <a href="https://drive.google.com/open?id=1DE0hsiO8L3RFTotaAzySk1jJuEUe8xLWERTy5gnGcXs" target="_blank">CV</a></h3>
-            </div>
-            <div class="well col-lg-7">
-              <h3><span class="fa fa-code"></span> Skills</h3><br>
-              <p class="col-lg-2">Java</p>
-              <div class="col-lg-4">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                  </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
                 </div>
-              </div>
-              <p class="col-lg-2">SQL</p>
-              <div class="col-lg-4">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                  </div>
-                </div>
-              </div>
-              <p class="col-lg-2">Javascript</p>
-              <div class="col-lg-4">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                  </div>
-                </div>
-              </div>
-              <p class="col-lg-2">HTML/CSS</p>
-              <div class="col-lg-4">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
 
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Nicolás <br/> Gómez</h1>
+                            <p class="promo-block-text">Systems &amp; Computing engineering student</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/nicolas.gomez.9026" target="_blank" class="social-icons">
+                                    <i class="icon-social-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ngomezgg" target="_blank" class="social-icons">
+                                    <i class="icon-social-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ngomez22" target="_blank" class="social-icons">
+                                    <i class="icon-social-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="hhttps://plus.google.com/u/0/100966409487234080572" target="_blank" class="social-icons">
+                                    <i class="icon-social-google"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="img/mockup/avatar-01.png" align="Avatar">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
         </div>
+        <!--========== SLIDER ==========-->
 
-        <hr>
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>I'm Alisa Portman, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <a href="https://drive.google.com/open?id=1DE0hsiO8L3RFTotaAzySk1jJuEUe8xLWERTy5gnGcXs" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Check out my CV</a>
+                            </div>
+                        </div>
 
-        <div class="section row">
-          <h2 id="projects">Projects</h2>
-          <div class="row project">
-            <h3>Twitter Bot</h3>
-            <div class="col-lg-6">
-              <a class="twitter-timeline" data-height="450" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/earthoughts">Tweets by earthoughts</a>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>Adobe Illustrator <span class="color-heading pull-right">87%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adobe Photoshop <span class="color-heading pull-right">96%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Graphic Design <span class="color-heading pull-right">77%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="col-lg-6">
-              <br>
-              <br>
-              <br>
-              <br>
-              <p class="text text-justify">I built a twitter bot that takes the top posts from the last 24 hours from <a href="https://reddit.com/r/earthporn" target="_blank">reddit.com/r/earthporn</a> and <a href="https://reddit.com/r/showerthoughts" target="_blank">reddit.com/r/showerthoughts</a>,
-                runs a Processing sketch that generates an image out of those posts and uploads it to twitter.<br>It currently posts only when I run the program from my laptop, but I expect to setup a Raspberry Pi in the upcoming weeks and leave the bot
-                running there, posting one picture every day.</p>
-            </div>
-          </div>
-          <div class="row project">
-            <div>
-              <h3>University projects</h3>
-            </div><br><br>
-
-            <div class="row">
-              <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#home"><span class="fa fa-plane"></span><h4> Tripulator</h3></a></li>
-                <li><a data-toggle="tab" href="#menu1"><span class="fa fa-ship"></span><h4> Trans-port</h3></a></li>
-                <li><a data-toggle="tab" href="#menu2"><span class="fa fa-tint"></span><h4> OilCol</h3></a></li>
-                <li><a data-toggle="tab" href="#menu3"><span class="fa fa-futbol-o"></span><h4> Footscores</h3></a></li>
-                <li><a data-toggle="tab" href="#menu4"><span class="fa fa-usd"></span><h4> Contrack</h3></a></li>
-              </ul>
-
-              <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
-                  <div class="col-lg-6"><br>
-                    <p>Vacation planner web application, developed for the course software development in teams, where users can plan their vacations by adding cities and events within those cities. </p>
-                    <a href="https://github.com/isis2603-Backup/nullpointer">Repository</a>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="project-pic" src="./files/tripulator.png" alt="Tripulator project">
-                  </div>
-                </div>
-                <div id="menu1" class="tab-pane fade">
-                  <div class="col-lg-6"><br>
-                    <p>Transactional systems application that simulates the functioning of a port, keeping logs of all the activities in it. Developed in groups of two for the course transactional systems. </p>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="project-pic" src="./files/port.jpg" alt="TransPort project">
-                  </div>
-                </div>
-                <div id="menu2" class="tab-pane fade">
-                  <div class="col-lg-6"><br>
-                    <p>Web application developed in Play Framework, as team leader of a 5 person team, that simulates the functioning of an oil extracting company, keeping logs of information sent by sensors located in the oil pits and reacting accordingly.</p>
-                    <a href="https://github.com/ngomez22/LANN-Arquisoft">Repository</a>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="project-pic" src="./files/oilcol.png" alt="OilCol project">
-                  </div>
-                </div>
-                <div id="menu3" class="tab-pane fade">
-                  <div class="col-lg-6"><br>
-                    <p>Application that allows users to guess the scores of upcoming soccer games. Developed in Meteor with the collaboration of a classmate</p>
-                    <a href="https://github.com/Footscores/Footscores2">Repository</a><br>
-                    <a href="https://footscores2.herokuapp.com/">Website</a>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="project-pic" src="./files/footscores.png" alt="Footscores project">
-                  </div>
-                </div>
-                <div id="menu4" class="tab-pane fade">
-                  <div class="col-lg-6"><br>
-                    <p>Innovation project developed with two other students that aims to expose corruption in public works currently being developed in Colombia, making use of public data available in government websites. Winner of ElConcurso, which provides recognition as the best project, and funding for further development</p>
-                    <a href="https://github.com/Contrack-UA/contrack-app">Repository</a><br>
-                    <a href="https://contrack.herokuapp.com/">Website</a>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="project-pic" src="./files/contrack.png" alt="Tripulator project">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <hr>
+        <!-- End About -->
 
-        <div class="section row">
-          <h2 id="socmed">Social media</h2>
-          <div class="col-lg-1"></div>
-          <!-- Fill -->
-          <div class="col-lg-2"><a href="https://twitter.com/ngomezgg" target="_blank"><span class="social-media fa fa-twitter fa-4x"></a></div>
-          <div class="col-lg-2"><a href="https://www.facebook.com/nicolas.gomez.9026" target="_blank"><span class="social-media fa fa-facebook-square fa-4x"></a></div>
-          <div class="col-lg-2"><a href="https://www.plus.google.com/100966409487234080572" target="_blank"><span class="social-media fa fa-google-plus fa-4x"></a></div>
-          <div class="col-lg-2"><a href="https://www.github.com/ngomez22" target="_blank"><span class="social-media fa fa-github fa-4x"></a></div>
-          <div class="col-lg-2"><a href="http://stackoverflow.com/users/6047684/nicolas-gomez"><span class="social-media fa fa-stack-overflow fa-4x"></a></div>
-        </div><br>
-      </div>
-    </div>
-    <!-- /#page-content-wrapper -->
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-mustache"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Illustrator</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Graphic Design</h3>
+                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Photoshop</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Sketch</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
 
-  </div>
-  <!-- /#wrapper -->
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Latest Products</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                    </div>
+                </div>
+                <!--// end row -->
 
-  <!-- My Javascript file -->
-  <script src="js/sketch.js"></script>
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
 
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-</body>
+        <!-- Clients -->
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
+        </div>
+        <!-- End Clients -->
 
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">Displaying the Result</h2>
+                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a href="http://keenthemes.com/">Brookyln, New York</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="http://keenthemes.com/">+77 234 548 00 00</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+                            <a href="mailto:#">alex.teseira@gmail.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Web</h4>
+                            <a href="http://keenthemes.com/">alex.teseira.com</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
