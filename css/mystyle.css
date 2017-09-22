@@ -89,3 +89,10 @@
 .link:after {
   background: #F88150;
 }
+
+/*
+ * CONTACT INFO
+ */
+ .contact-info {
+   font-size: 20px; 
+ }
