@@ -58,3 +58,34 @@
 .progress-box .progress {
   height: 5px;
 }
+
+/*
+ * PROJECTS
+ */ 
+
+.project-img {
+  height: 220px;
+  width: auto;
+  display:block;
+  margin:auto;
+  filter: grayscale(100);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.project-img:hover {
+   filter: grayscale(0);
+}
+
+/*
+ * LINKS
+ */
+
+.link {
+  padding-right: 12px;
+}
+
+.link:after {
+  background: #F88150;
+}
