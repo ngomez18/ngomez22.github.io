@@ -1,17 +1,60 @@
+/*
+ *  BACKGROUND COLORS
+ */
+.bg-color-base {
+  background: #F88150 !important;
+}
+
+.bg-color-white {
+  background: #fff !important;
+}
+
+.bg-color-heading {
+  background: #2B2E38 !important;
+}
+
+.bg-color-subtitle {
+  background: #666666 !important;
+}
+
+.bg-color-link {
+  background: #70737C !important;
+}
+
+.bg-color-link-hover {
+  background: #21253A !important;
+}
+
+.bg-color-sky-light {
+  background: #fafafa !important;
+}
+
+/*
+ *  SOCIAL ICONS
+ */
 .social-icons {
     display: inline-block;
     width: 55px;
     height: 55px;
     font-size: 32px;
-  }
+}
 
-  .social-icons:hover {
-    background: #F88150;
-  }
+.social-icons:hover {
+  background: #F88150;
+}
 
-  .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
-    color: #fff;
-    background: #F88150;
-    border-color: transparent;
-  }
-  
+/* 
+ * CV BUTTON
+ */
+.btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
+  color: #fff;
+  background: #F88150;
+  border-color: transparent;
+}
+
+/* 
+ * PROGRESS BARS
+ */
+.progress-box .progress {
+  height: 5px;
+}
