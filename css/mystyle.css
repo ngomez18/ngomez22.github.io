@@ -29,6 +29,18 @@
   background: #fafafa !important;
 }
 
+.header .nav-item-hover:after {
+  background: #F88150;
+}
+
+/*
+ * AVATAR
+ */
+ .avatar {
+   height: 525px;
+   width: auto;
+ }
+
 /*
  *  SOCIAL ICONS
  */
