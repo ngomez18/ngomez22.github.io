@@ -36,19 +36,19 @@
 /*
  * AVATAR
  */
- .avatar {
-   height: 525px;
-   width: auto;
- }
+.avatar {
+  height: auto;
+  width: auto;
+}
 
 /*
  *  SOCIAL ICONS
  */
 .social-icons {
-    display: inline-block;
-    width: 55px;
-    height: 55px;
-    font-size: 32px;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  font-size: 32px;
 }
 
 .social-icons:hover {
@@ -58,7 +58,9 @@
 /* 
  * CV BUTTON
  */
-.btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
+.btn-default-bg:hover,
+.btn-default-bg:focus,
+.btn-default-bg.focus {
   color: #fff;
   background: #F88150;
   border-color: transparent;
@@ -73,13 +75,13 @@
 
 /*
  * PROJECTS
- */ 
+ */
 
 .project-img {
   height: 220px;
   width: auto;
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
   filter: grayscale(100);
   transition-duration: 300ms;
   transition-property: all;
@@ -87,7 +89,7 @@
 }
 
 .project-img:hover {
-   filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 /*
@@ -105,6 +107,13 @@
 /*
  * CONTACT INFO
  */
- .contact-info {
-   font-size: 20px; 
- }
+.contact-info {
+  font-size: 20px;
+}
+
+/*
+ * EXPERIENCE
+  */
+div.experience-block {
+  margin-bottom: 5%;
+}
