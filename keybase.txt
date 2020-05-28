@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ngomez18
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicolasgg.com
+  * I am ngomez18 (https://keybase.io/ngomez18) on keybase.
+  * I have a public key ASAXUDb4SmnvnKlAlLWh72mIcfUFyn3I7FihVf4wWQgH5Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120175036f84a69ef9ca94094b5a1ef698871f505ca7dc8ec58a155fe30590807e50a",
+      "host": "keybase.io",
+      "kid": "0120175036f84a69ef9ca94094b5a1ef698871f505ca7dc8ec58a155fe30590807e50a",
+      "uid": "7b4d5a66e44a6882a1e6ca9f76b1f119",
+      "username": "ngomez18"
+    },
+    "merkle_root": {
+      "ctime": 1590630588,
+      "hash": "c8632ff7e2202b9d53c3557cabfd50dbeb3d464fec9b496a223f070cd318a8c794fe5df10b4eacb614d3f5cedcee387dd1c667a7dd0fc4368af1e3a89a5b4bd6",
+      "hash_meta": "3dc149906f6d6050eb1cca98f20f7dae306a654a01befb989790cdb166ad9c1b",
+      "seqno": 16426346
+    },
+    "service": {
+      "entropy": "Z3R0KdPiSrlt1Sciaazvq91d",
+      "hostname": "nicolasgg.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1590630596,
+  "expire_in": 504576000,
+  "prev": "399ac17ef282d72907875e274d2c388632b185e8c232f07e344cb5653094d21c",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgF1A2+Epp75ypQJS1oe9piHH1Bcp9yOxYoVX+MFkIB+UKp3BheWxvYWTESpcCDsQgOZrBfvKC1ykHh14nTSw4hjKxhejCMvB+NEy1ZTCU0hzEIFx90iOP2qHUbqpZP9Saka4Nj7Zh9qY59s3ZwUblq0iSAgHCo3NpZ8RARo0qfBQC5r7RaBHyliqYtTceOjnhmxHcJ3CddyFP+9S6PAmHoSyIZkxANqNHlgYj9ARLbz5S8euOIqGqC9TDDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH9XRSQdeb5IVvvlNTudp5qv3gZPlXTN1CkrBNed4687o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ngomez18
+
+==================================================================
